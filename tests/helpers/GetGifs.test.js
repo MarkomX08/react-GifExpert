@@ -10,9 +10,9 @@ describe('Pruebas en GetGifs()', () => {
 
         // Se espera que el array tenga la siguiente estructura
         expect ( gifs[0] ).toEqual({
-            id: expect.any( String ), // verifica si el elemento del array es de tipo
-            title: expect.any( String ),
-            url: expect.any( String ),
+            id: expect.any( String ), // especifica que el elemento a recibir debe ser de tal tipo
+            title: expect.any( String ), // especifica que el elemento a recibir debe ser de tal tipo
+            url: expect.any( String ), // especifica que el elemento a recibir debe ser de tal tipo
         });
      });
  });
